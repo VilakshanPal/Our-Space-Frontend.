@@ -4,9 +4,9 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 
-import FloatingInput from "../../../components/ui/signup/FloatingInput";
-import PasswordInput from "../../../components/ui/signup/PasswordInput";
-import GenderInput from "../../../components/ui/signup/GenderInput";
+import FloatingInput from "../../components/ui/signup/FloatingInput";
+import PasswordInput from "../../components/ui/signup/PasswordInput";
+import GenderInput from "../../components/ui/signup/GenderInput";
 
 export default function Signup() {
   const [termsConditions, setTermsConditions] = useState(true);
